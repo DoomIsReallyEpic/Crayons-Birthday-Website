@@ -12,10 +12,10 @@ body {
 
 .container {
     background: rgb(60, 187, 230);
-    width: 100%;
+    width: 95%;
     height: 100%;
     border: solid rgb(0, 0, 0) 3px;
-    margin: auto;
+    margin: 10px auto;
     padding: 20px;
 }
 
@@ -41,15 +41,13 @@ p {
     margin: 5px;
 }
 
-ul {
-    margin: 5px;
-    text-align: center;
-    list-style-position: inside;
-    font-size: 22px;
-}
-
-li {
-    padding: 5px;
+a.backbutton:link {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border: solid navy 2px;
+    text-decoration: none;
 }
 
 img {
@@ -61,6 +59,16 @@ figcaption {
     font-size: 14px;
 }
 
+ul {
+    margin: 5px;
+    list-style-position: inside;
+    font-size: 22px;
+}
+
+li {
+    padding: 5px;
+}
+
 hr {
     height: 3px;
     width: 100%;
@@ -68,4 +76,8 @@ hr {
     background-color: navy;
     border: none;
     margin: 10px;
+}
+
+div.footer a {
+    font-size: 12px;
 }
