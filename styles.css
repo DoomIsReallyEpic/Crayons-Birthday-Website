@@ -10,6 +10,34 @@ body {
     text-align: center;
 }
 
+/* Corner Images */
+div.cornerImages img {
+    position: fixed;
+    margin: 10px;
+    height: 8%;
+}
+
+.cornerTopLeft {
+    top: 0;
+    left: 0;
+}
+
+.cornerTopRight {
+    top: 0;
+    right: 0;
+}
+
+.cornerBottomLeft {
+    bottom: 0;
+    left: 0;
+}
+
+.cornerBottomRight {
+    bottom: 0;
+    right: 0;
+}
+
+/* Container */
 .container {
     background: rgb(60, 187, 230);
     width: 95%;
@@ -38,7 +66,7 @@ h2 {
 
 p {
     text-align: left;
-    margin: 5px;
+    margin: 10px;
 }
 
 a.backbutton:link {
@@ -53,6 +81,11 @@ a.backbutton:link {
 img {
     border: solid black 2px;
     margin: 10px;
+}
+
+img:hover {
+    transform: rotate(720deg);
+    transition: ease-in-out 1s;
 }
 
 figcaption {
@@ -71,7 +104,6 @@ li {
 
 hr {
     height: 3px;
-    width: 100%;
     color: navy;
     background-color: navy;
     border: none;
