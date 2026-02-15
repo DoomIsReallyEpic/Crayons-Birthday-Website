@@ -51,13 +51,6 @@ h1 {
     font-size: 40px;
 }
 
-h1.cracker::before, h1.cracker::after {
-    content: url("/images/Cracker.jpg");
-    display: inline-block;
-    margin: 5px;
-    vertical-align: middle;
-}
-
 h2 {
     font-size: 30px;
     display: inline-block;
@@ -67,6 +60,10 @@ h2 {
 p {
     text-align: left;
     margin: 10px;
+}
+
+p.alignCenter {
+    text-align: center;
 }
 
 a.backbutton:link {
@@ -81,10 +78,11 @@ a.backbutton:link {
 img {
     border: solid black 2px;
     margin: 10px;
+    transition: ease-in-out 1s;
 }
 
 img:hover {
-    transform: rotate(720deg);
+    transform: rotate(720deg) scale(1.5);
     transition: ease-in-out 1s;
 }
 
